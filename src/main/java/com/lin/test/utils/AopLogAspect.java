@@ -8,17 +8,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 /*Spring AOP支持的切入点指示符：
-
 (1)execution:用来匹配执行方法的连接点
-
 A:@Pointcut("execution(* com.lin.test.service..*.*(..))")
-
 第一个*表示匹配任意的方法返回值，..(两个点)表示零个或多个，上面的第一个..表示service包及其子包,第二个*表示所有类,第三个*表示所有方法，第二个..表示
-
 方法的任意参数个数
-
 B:@Pointcut("within(com.aijava.springcode.service.*)")
-
 within限定匹配方法的连接点,上面的就是表示匹配service包下的任意连接点
 
 C:@Pointcut("this(com.aijava.springcode.service.UserService)")
