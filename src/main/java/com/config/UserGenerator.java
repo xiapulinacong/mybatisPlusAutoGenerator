@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-/*自动生成工具*/
+/*根据数据库表自动代码文件*/
 public class UserGenerator {
     public static void main(String[] args) {
         List<String> tables = new ArrayList<>();
